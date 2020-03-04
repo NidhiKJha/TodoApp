@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import TODO from "./types";
-import { AppContext } from "../AppContext";
+import { AppContext } from "./Global/AppContext";
 
 interface TodoItemProps {
   todo: TODO;

@@ -1,5 +1,5 @@
 import React, { useState, FormEvent, ChangeEvent, useContext } from "react";
-import { AppContext } from "../AppContext";
+import { AppContext } from "./Global/AppContext";
 
 const AddTodo: React.FC = () => {
   const [title, setTitle] = useState("");

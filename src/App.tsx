@@ -6,7 +6,7 @@ import AddTodo from "./Components/AddTodo";
 import uuid from "uuid";
 import TODO from "./Components/types";
 import ImagePreview from "./Components/ImagePreview";
-import { AppContext } from "./AppContext";
+import { AppContext } from "./Components/Global/AppContext";
 
 const App: React.FC = () => {
   const [todos, setTodos] = useState([] as TODO[]);
