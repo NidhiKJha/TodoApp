@@ -1,0 +1,29 @@
+#root,
+.todo-list-app {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.header{
+ background-color: grey;
+ text-color:white
+}.App {
+    text-align: center;
+    display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  }
+  
+  button {
+    border: 1px solid #eee;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.02rem;
+    text-transform: uppercase;
+    background-color: transparent;
+    border-color: black;
+    &:hover {
+      background: black;
+      color: white;
+    }
+  }

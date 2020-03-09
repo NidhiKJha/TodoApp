@@ -8,7 +8,7 @@ const AddTodo: React.FC = () => {
 
   const onFormSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    if (!title) return;
+    if (!e) return;
 
     addTodo(title);
     setTitle("");
