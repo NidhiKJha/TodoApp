@@ -14,10 +14,12 @@ const App: React.FC = () => {
   const markComplete = (id: string) => {
     setTodos(
       todos.map(todo => {
-        if (todo.id === id) {
-          todo.completed = !todo.completed;
-        }
-        return todo;
+        return todo.id === id
+          ? {
+              ...todo,
+              completed: !todo.completed // Return a new object or use Object.Assign
+            }
+          : todo;
       })
     );
   };
