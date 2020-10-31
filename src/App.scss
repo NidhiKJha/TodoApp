@@ -1,11 +1,16 @@
 .header{
   background-color: grey;
-  text-color:white
-}.App {
-    text-align: center;
-    display: flex;
+  color:white;
+  margin-bottom: 20px;
+}
+
+.App {
+
+  text-align: center;
   flex-flow: column nowrap;
   align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
   }
   
   button {
